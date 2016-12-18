@@ -29,7 +29,7 @@ function printScore(){
 
 function winaGameScore(statline){
 	var parsed = statline.split("\t");
-	console.log(parsed);
+
 	var totalFG = parsed[2].split("-");
 	var threePointers = parsed[4].split("-");
 	var freeThrows = parsed[6].split("-");
