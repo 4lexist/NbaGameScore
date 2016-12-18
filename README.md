@@ -44,6 +44,6 @@ Calculate score based on a particular game. You can give any stat-line from an E
 
 ### Nota Bene
 
-This is of course not an official way to calculate game score, and it seems that EPSN's plus/minus and Winamax's one differ a little sometimes so there might be a score difference of 0,15 or 0,30.
+This is of course not an official way to calculate game scores, and it seems that EPSN's plus/minus and Winamax's one differ a little sometimes so there might be a score difference of 0,15 or 0,30.
 
 
