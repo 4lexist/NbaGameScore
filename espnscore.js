@@ -57,9 +57,9 @@ function winaGameScore(statline){
 	var winaScore = 0.15 * PM
 	+ 1 * madeFT - 0.5 * missedFT
 	+ 2 * made2 - 0.5 * missed2 
-	+ 3 * made3 - 0.25 * missed3
+	+ 3 * made3 - 0.5 * missed3
 	+ 0.75 * DREB + 1 * OREB
-	+ AST + 1.5 * STL + 1.5 * BLK
+	+ AST + 2 * STL + 2 * BLK
 	- 0.75 * TO - 0.5 * PF;
 
 	//console.log(PM, DREB, OREB, AST, STL, BLK, TO, PF);
@@ -75,14 +75,14 @@ Victoire de l'équipe 	4
 2 pts réussi 	2
 2 pts manqué 	-0,5
 3 pts réussi 	3
-3 pts manqué 	-0,25
+3 pts manqué 	-5
 Lancer-franc réussi 	1
 Lancer-franc manqué 	-0,5
 Rebond défensif 	0,75
 Rebond offensif 	1
 Passe décisive 	1
-Interception 	1,5
-Contre 	1,5
+Interception 	2
+Contre 	2
 Perte de balle 	-0,75
 Faute personnelle 	-0,5
 */

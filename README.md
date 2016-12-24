@@ -8,14 +8,14 @@ The calulations are made based on the following rules :
 * 2 pts FG made : +2
 * 2 pts FG missed :	-0,5
 * 3 pts FG made : +3
-* 3 pts FG missed : -0,25
+* 3 pts FG missed : -0,5
 * Free throw made : +1
 * Free throw missed : -0,5
 * Defensive rebound : +0,75
 * Offensive rebound : +1
 * Assist : +1
-* Steal : +1,5
-* Block : +1,5
+* Steal : +2
+* Block : +2
 * Turnover : -0,75
 * Personal Foul : -0,5
 
