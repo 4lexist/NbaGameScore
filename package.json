@@ -1,0 +1,23 @@
+{
+  "name": "NbaGameScore",
+  "version": "1.0.0",
+  "description": "Here are two `.js` files aiming to calculate a score based on a stat-line. The primary goal was to anticipate future game scores based on averages per games in order to optimize team choices in the Winamax game : [**Jeu de l'entraineur**](https://www.winamax.fr/jde).",
+  "main": "bkrefscore.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4lexist/NbaGameScore.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/4lexist/NbaGameScore/issues"
+  },
+  "homepage": "https://github.com/4lexist/NbaGameScore#readme",
+  "dependencies": {
+    "request": "^2.83.0"
+  }
+}

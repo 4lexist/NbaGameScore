@@ -1,8 +1,13 @@
 # NbaGameScore
 
+## webpageParser.js
+
+The current project is to get a list of every players playing tonight with their position and their price
+
+## bkrefscore and espnscore
 Here are two `.js` files aiming to calculate a score based on a stat-line. The primary goal was to anticipate future game scores based on averages per games in order to optimize team choices in the Winamax game : [**Jeu de l'entraineur**](https://www.winamax.fr/jde).
 
-The calulations are made based on the following rules : 
+The calulations are made based on the following rules :
 * Winning Team : +4
 * Plus / Minus : +/- 0,15
 * 2 pts FG made : +2
@@ -23,7 +28,7 @@ The calulations are made based on the following rules :
 
 ## `espnscore.js`
 
-Calculate score based on average per games. For example if we want to know how many points Lebron James would have brought to the *Jeu de l'entraineur*, you can do the following : 
+Calculate score based on average per games. For example if we want to know how many points Lebron James would have brought to the *Jeu de l'entraineur*, you can do the following :
 * Open a Terminal
 * Go to the folder NbaGameScore
 * Type `node espnscore.js`
@@ -35,7 +40,7 @@ Calculate score based on average per games. For example if we want to know how m
 
 ## `winascore.js`
 
-Calculate score based on a particular game. You can give any stat-line from an ESPN boxscore that you can find on this [page](http://www.espn.com/nba). Then do the following : 
+Calculate score based on a particular game. You can give any stat-line from an ESPN boxscore that you can find on this [page](http://www.espn.com/nba). Then do the following :
 * Open a Terminal
 * Go to the folder NbaGameScore
 * Type `node winascore.js`
@@ -45,5 +50,3 @@ Calculate score based on a particular game. You can give any stat-line from an E
 ### Nota Bene
 
 This is of course not an official way to calculate game scores, and it seems that EPSN's plus/minus and Winamax's one differ a little sometimes so there might be a score difference of 0,15 or 0,30.
-
-
